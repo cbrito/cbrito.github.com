@@ -1,5 +1,8 @@
 ---
-title : Splunk REST Client for Ruby
+title : Christopher Brito's Fave Code! 
 ---
 
-Code on GitHub: https://github.com/cbrito/splunk-client
+All Repos: https://github.com/cbrito
+
+## Splunk REST API Client for Ruby
+* http://github.com/cbrito/splunk-client
