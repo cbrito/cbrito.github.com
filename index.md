@@ -1,6 +1,4 @@
----
-title : Christopher Brito's Fave Code! 
----
+# Christopher Brito's Fave Code! 
 
 All Repos: https://github.com/cbrito
 
