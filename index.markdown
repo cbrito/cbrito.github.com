@@ -13,4 +13,4 @@ A listing of all my GitHub repos can be found on the account main page: [https:/
 
 
 ---
-© 2012 [Christopher Brito](http://christopherbrito.com) - All Rights Reserved
+&copy; 2012 [Christopher Brito](http://christopherbrito.com) - All Rights Reserved
