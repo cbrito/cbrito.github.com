@@ -1,9 +1,16 @@
 ---
 title: Christopher Brito's Code
+layout: default
 ---
-# Christopher Britos Fave Code! 
+# Christopher Brito's GitHub Repository
 
-All Repos: [https://github.com/cbrito](https://github.com/cbrito)
+A listing of all my GitHub repos can be found on the account main page: [https://github.com/cbrito](https://github.com/cbrito)
 
-## Splunk REST API Client for Ruby
-* [http://github.com/cbrito/splunk-client](http://github.com/cbrito/splunk-client)
+### Splunk REST API Client for Ruby
+* [Splunk's API Documentation](http://docs.splunk.com/Documentation/Splunk/latest/RESTAPI/RESTcontents)
+* [Ruby Splunk REST API Client Documentation](http://cbrito.github.com/splunk-client)
+* [Ruby Splunk REST API Client Code](http://github.com/cbrito/splunk-client)
+
+
+---
+© 2012 [Christopher Brito](http://christopherbrito.com) - All Rights Reserved
