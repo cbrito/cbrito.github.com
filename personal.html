@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Christopher Brito</title>
+    <link rel="stylesheet" type="text/css" href="css/jqcloud.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jqcloud-0.2.10.js"></script>
+    <script type="text/javascript">
+      /*!
+       * Create an array of objects to be passed to jQCloud, each representing a word in the cloud
+       */
+      var word_list = [
+          {text: "christopher brito", weight: 35},
+          {text: "writing", weight: 18, url: "http://blog.christopherbrito.com", title: "Personal Blog"},
+          {text: "code", weight: 18, url: "http://cbrito.github.com", title: "GitHub Repo"},
+          {text: "reading", weight: 15, url: "http://www.goodreads.com/user/show/2035081", title: "Personal Blog"},
+          {text: "g+", weight: 15, url: "https://plus.google.com/102781046982471306105/posts"},
+          {text: "career", weight: 15, url: "http://www.linkedin.com/in/christopherbrito"},
+          {text: "facebook", weight: 15, url: "http://www.facebook.com/profile.php?id=11300422"},
+          {text: "cycling", weight: 10, url: "http://velospace.org/user/8473"},
+          {text: "running", weight: 10, url: "http://www.dailymile.com/people/ChrisB124"},
+          {text: "philly", weight: 6},
+      ];
+      $(document).ready(function() {
+        // Call jQCloud on a jQuery object passing the word list as the first argument. Chainability of methods is maintained.
+        $("#example").jQCloud(word_list);
+      });
+    </script>
+  </head>
+  <body bgcolor="#191919">
+    <!-- You must explicitly specify the dimensions of the container element -->
+    <div id="example" style="width: 750px; height: 600px; position: relative;"></div>
+  </body>
+</html>
